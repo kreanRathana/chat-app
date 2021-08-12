@@ -1,0 +1,19 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+    <title>Email Verification</title>
+    <link rel='stylesheet' href='/stylesheets/style.css' />
+</head>
+
+<body>
+    <h1>Slecret</h1>
+    <%if (success) { %>
+        <p>Hi <%= payload.email %></p>
+        <p><%= message %></p>
+    <% } else { %>
+        <p><%= message %></p>
+    <% } %>
+</body>
+
+</html>

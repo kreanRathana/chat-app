@@ -1,0 +1,47 @@
+{
+  "name": "node_sequelize_docker_setup_project",
+  "version": "1.0.0",
+  "description": "Slecret nodeJS/ExpressJS project using docker with sequelize",
+  "main": "app.js",
+  "scripts": {
+    "start": "node app.js",
+    "dev": "nodemon app.js",
+    "debug": "DEBUG=desquiz:* npm run dev"
+  },
+  "keywords": [
+    "NodeJS",
+    "ExpressJS",
+    "Sequelize",
+    "postgres",
+    "docker",
+    "git",
+    "vscode"
+  ],
+  "author": "Vuthy Sreang",
+  "license": "ISC",
+  "dependencies": {
+    "bcryptjs": "^2.4.3",
+    "cookie-parser": "^1.4.5",
+    "cors": "^2.8.5",
+    "debug": "^2.6.9",
+    "dotenv": "^9.0.1",
+    "ejs": "^3.1.6",
+    "email-validator": "^2.0.4",
+    "express": "^4.17.1",
+    "express-jwt": "^6.0.0",
+    "http-errors": "^1.7.2",
+    "jsonwebtoken": "^8.5.1",
+    "mailgun-js": "^0.22.0",
+    "mongoose": "^5.13.0",
+    "mongoose-auto-increment": "^5.0.1",
+    "morgan": "^1.10.0",
+    "pg": "^8.5.1",
+    "pg-hstore": "^2.3.3",
+    "regex": "^0.1.1",
+    "sequelize": "^6.6.2"
+  },
+  "devDependencies": {
+    "nodemon": "^2.0.7",
+    "sequelize-cli": "^6.2.0"
+  }
+}
